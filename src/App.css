@@ -1,0 +1,51 @@
+.btn {
+  width: 130px;
+  border: 1px solid black;
+}
+.btn:hover {
+  background-color: rgb(170, 179, 179);
+  border: 1px solid black;
+}
+@media only screen and (max-width: 600px) {
+  .Infodiv {
+    width: 58%;
+    margin-left: 97px;
+  }
+  .info{
+    position: relative;
+    top: 8px
+  }
+  .clash{
+    gap: 16px;
+  }
+}
+
+@media only screen and (max-width: 767px){
+  .target{
+    border-right:none;
+  }
+  .info{
+    border-radius: 32px;
+  }
+  .carousel{
+    position: relative;
+    top: 64px;
+  }
+  
+}
+@media only screen and (max-width: 600px) {
+  .content {
+    overflow: scroll;
+    height: 52%;
+  }
+  .applications{
+    gap: 17px;
+  }
+}
+
+@media only screen and (min-width: 600px) {
+  .content {
+    overflow: scroll;
+  }
+ 
+}

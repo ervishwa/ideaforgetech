@@ -1,0 +1,24 @@
+.ap1{
+    background-image: url("https://ideaforgetech.com/_nuxt/img/bg9.c6f35cf.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 400px !important;
+    border: none;
+    border-radius: 0;
+    }
+    .ap2{
+        background-image: url("https://ideaforgetech.com/_nuxt/img/bg8.90f58ea.png");
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 400px !important;
+        border: none;
+    border-radius: 0;
+    }
+     .ap1 div , .ap2 div {
+       position: relative;
+        top: 150px;
+    }
+    .ap1 div button, .ap2 div button {
+        border-color: white;
+        color: white !important;
+    }

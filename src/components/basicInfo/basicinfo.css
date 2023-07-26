@@ -1,0 +1,10 @@
+.basicInfo p {
+    color: white;
+    margin: 5px;
+  }
+  .Infodiv div {
+    /* width: 90%; */
+    /* margin: 1px; */
+    padding: 15px;
+    border-bottom: 2px solid rgb(123, 114, 114);
+  }

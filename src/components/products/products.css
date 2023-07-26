@@ -1,0 +1,59 @@
+.p1 {
+  background-image: url("https://ideaforgetech.com/_nuxt/img/bg1.9c11205.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.p1 img {
+  width: 80%;
+}
+.netro {
+  background-image: url("https://ideaforgetech.com/_nuxt/img/bg2.4834eee.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.netro img {
+  width: 50%;
+  height: 60%;
+}
+.ninja {
+  background-image: url("https://ideaforgetech.com/_nuxt/img/bg4.7fabf35.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.ninja img {
+  width: 50%;
+  height: 60%;
+}
+.q4i {
+    background-image: url("https://ideaforgetech.com/_nuxt/img/bg5.3c8a14f.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .ryno {
+    background-image: url("https://ideaforgetech.com/_nuxt/img/bg6.7d1446d.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .q4i img,
+  .ryno img {
+    width: 50%;
+    height: 60%;
+  }
+  .Q6 img {
+    width: 50%;
+    height: 60%;
+  }
+  .Q6 {
+    background-image: url("https://ideaforgetech.com/_nuxt/img/bg7.df1c427.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .testing img {
+    width: 100%;
+    height: 100%;
+  }
+  .testText {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+  }
