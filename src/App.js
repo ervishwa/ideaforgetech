@@ -6,6 +6,7 @@ import { Routes , Route } from 'react-router-dom';
 import "./App.css";
 import AOS from "aos";
 import "aos/dist/aos.css";
+import { About } from './pages/about/About';
 export function App() {
   useEffect(() => {
     AOS.init();
@@ -14,6 +15,7 @@ export function App() {
   return (
    <Routes>
     <Route path='/' element={<Home/>}/>
+    <Route path='/about' element={<About/>}/>
    </Routes>
   )
 }

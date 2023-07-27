@@ -1,0 +1,12 @@
+.button {
+    width: 110px;
+    color: #fff!important;
+    background-color: hsla(0,0%,100%,.26667)!important;
+    border-color: #fff!important;
+    text-decoration: none!important;
+    border: 1px solid transparent;
+  }
+  .button:hover {
+    
+    border: 1px solid black;
+  }

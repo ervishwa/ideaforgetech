@@ -1,0 +1,63 @@
+.basic_info{
+    margin-left: 68px;
+}
+.basic_info1{
+    margin-left: 80px;
+}
+.founder{
+     background-color: #e1f0f0;
+    padding-left: 10px;
+}
+.founder img{
+ height: 300px;
+ width: 250px;
+}
+.founder_img1{
+
+}
+.founder_img2{
+}
+.founder_img3{
+    
+}
+.moto{
+    background-image: url("https://ideaforgetech.com/_nuxt/img/RepeatGrid1.3bc1f98.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50%;
+    /* linear-gradient:(123deg); */
+    max-width: 100vw;
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 19px;
+}
+._content_text{
+    width: 66%;
+    color: white;
+}
+.infoContainer{
+    display: none;
+}
+.office img {
+    width: 90%;
+    height: 90%;
+}
+.office_text{
+    display: flex;
+    justify-content: center;
+}
+.office_textp{
+    width: 70%;
+}
+
+@media only screen and (max-width:765px){
+.basic_info{
+    margin-left:0;
+}
+.basic_info1{
+    margin-left: 0;
+}
+}
