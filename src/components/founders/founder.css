@@ -1,0 +1,17 @@
+.founderName{
+    font-weight:bolder;
+}
+.founderPosition{
+  font-weight:bold;
+}
+.founderInfo{
+    font-size: 20px;
+}
+
+
+@media only screen and (max-width: 600px){
+    .founderInfo{
+   font-size: 15px;
+    }
+    
+}

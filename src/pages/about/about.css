@@ -9,16 +9,26 @@
     padding-left: 10px;
 }
 .founder img{
- height: 300px;
- width: 250px;
-}
-.founder_img1{
+ max-height: 300px;
+ max-width: 250px;
+ cursor: pointer;
 
 }
+.black{
+ filter: grayscale(100%);
+-webkit-filter: grayscale(100%);
+}
+.founder_img1{
+position: relative;
+left: -60px;
+}
 .founder_img2{
+    position: relative;
+    right:60px;
 }
 .founder_img3{
-    
+    position: relative;
+    right: 122px;
 }
 .moto{
     background-image: url("https://ideaforgetech.com/_nuxt/img/RepeatGrid1.3bc1f98.png");
@@ -61,3 +71,64 @@
     margin-left: 0;
 }
 }
+@media only screen and (max-width:600px){
+    .founder img{
+        width: 100px;
+        height: 100px;
+    }
+    .founder_img1{
+position: relative;
+right: 24px;
+left: -24px;
+}
+.founder_img2{
+    position: relative;
+    right:24px;
+}
+.founder_img3{
+    position: relative;
+    right: 48px;
+}
+.moto_content{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+}
+@media only screen and (max-width:1045px)and (min-width:845px){
+     .founder img{
+        width: 200px;
+        height: 200px;
+    }
+    .founder_img2{
+    position: relative;
+    right:49px;
+}
+.founder_img3{
+    position: relative;
+    right: 108px;
+}
+}
+@media only screen and (max-width:845px)and (min-width:768px){
+     .founder img{
+        width: 150px;
+        height: 150px;
+    }
+      .founder_img2{
+    position: relative;
+    right:37px;
+}
+.founder_img3{
+    position: relative;
+    right: 75px;
+}
+.founder_img1{
+position: relative;
+left: -38px;
+}
+}
+/* @media only screen and (max-width:1045px)and(max-width:845px){
+  
+} */
