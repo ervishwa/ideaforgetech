@@ -7,6 +7,7 @@ import "./App.css";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import { About } from './pages/about/About';
+import { SwitchUav } from './pages/switchUav/SwitchUav';
 export function App() {
   useEffect(() => {
     AOS.init();
@@ -16,6 +17,7 @@ export function App() {
    <Routes>
     <Route path='/' element={<Home/>}/>
     <Route path='/about' element={<About/>}/>
+    <Route path='/switch' element={<SwitchUav/>}/>
    </Routes>
   )
 }

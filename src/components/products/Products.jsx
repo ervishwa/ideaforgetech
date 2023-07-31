@@ -1,5 +1,6 @@
 import React from 'react'
 import "./products.css";
+import { Link } from 'react-router-dom';
 export function Products() {
   return (
     <section className="products py-5">
@@ -14,7 +15,7 @@ export function Products() {
             <div className="col-md-4 m-auto text-center">
               <div className="text-center" ></div>
                 <h2 data-aos="fade-up" data-aos-once="false" data-aos-duration="600">SWITCH UAV</h2>
-                <button type="button" className="btn rounded-pill m-3" data-aos="fade-up" data-aos-once="false" data-aos-duration="600">Learn More</button>
+                <button type="button" className="btn rounded-pill m-3" data-aos="fade-up" data-aos-once="false" data-aos-duration="600"><Link to="/switch" style={{textDecoration:"none" ,color :"black"}}>Learn More</Link></button>
               </div>
             </div>
           </div>
