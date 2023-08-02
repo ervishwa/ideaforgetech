@@ -1,0 +1,16 @@
+.testlist{
+    display: flex;
+    /* gap: 10px; */
+    align-items: center;
+   /* justify-content: center; */
+   padding: 7.5px;
+gap: 5px;
+}
+.testchq{
+    height: 20px;
+    width: 20px;
+}
+.testlist_text{
+    font-weight: bold;
+    /* color: red; */
+}

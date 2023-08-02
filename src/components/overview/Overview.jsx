@@ -16,7 +16,7 @@ export function Overview(props) {
         </div>
       </div>
       <div className="row">
-        <div className="col-md-10 mx-auto">
+        <div className="col-md-10 mx-auto my-5">
             <video  className="droneVideo" src={url} muted preload="preload" autoPlay loop></video>
         </div>
       </div>

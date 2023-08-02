@@ -1,0 +1,26 @@
+.payload1 video{
+    width: 100%;
+    height: 100%;
+}
+.payloadflex{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+}
+.payload1heading{
+    font-size: 30px;
+    color: green !important;
+    font-weight: bolder;
+}
+.payload1 p{
+    margin: 0;
+    padding:0;
+}
+.payload1box{
+    width: 100%;
+}
+
+/* @media only screen and (max-width: 768px){
+
+} */
