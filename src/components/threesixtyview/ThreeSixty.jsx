@@ -1,4 +1,3 @@
-import { Button } from "../button/Button";
 import "./threeSixty.css";
 export function ThreeSixty() {
   return (
@@ -11,10 +10,7 @@ export function ThreeSixty() {
           <img src="https://ideaforgetech.com/_nuxt/img/360%20Degree@3x.2a9305c.png" alt="" />
           <div className="row text-center mt-2">
             <div className="col-md-6">
-            <Button
-            text="View in 360°"
-            style={{ backgroundColor:"green",padding :"6px",width:"128px"}}
-          />
+            <button className="threesixtybutton">View in 360°</button>
             </div>
           </div>
         </div>
@@ -22,3 +18,4 @@ export function ThreeSixty() {
     </div>
   );
 }
+

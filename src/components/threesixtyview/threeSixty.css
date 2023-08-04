@@ -6,3 +6,11 @@
     height: 90%;
     width: 90%;
 }
+.threesixtybutton{
+    background-color: green;
+    padding: 6px;
+    width: 128px;
+    border-radius: 23px;
+    cursor: pointer;
+    border: none;
+}

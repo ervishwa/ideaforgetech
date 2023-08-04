@@ -11,6 +11,12 @@ import { PayLoad1 } from "../../components/payload/PayLoad1";
 import { PayLoad2 } from "../../components/payload/PayLoad2";
 import { Capture } from "../../components/captureView/Capture";
 import { ThreeSixty } from "../../components/threesixtyview/ThreeSixty";
+import { Usecase } from "../../components/usecase/Usecase";
+import { ControlStation } from "../../components/controlStation/ControlStation";
+import { DroneFeature1 } from "../../components/dronefeature/DroneFeature1";
+import { Dronefeature2 } from "../../components/dronefeature/Dronefeature2";
+import { Brochure } from "../../components/brochure/Brochure";
+import {Footer} from "../../components/footer/Footer";
 export function SwitchUav() {
   return (
     <>
@@ -63,22 +69,52 @@ export function SwitchUav() {
       <div className="container payloadContent">
         <div className="row py-2">
           <div className="col-md-8 col-12 mx-auto">
-          <h1 className="fs-1 fw-bold">Payloads</h1>
-          </div>  
-        </div>
-        <div className="row my-5">
-          <div className="col-md-8 mx-auto ">
-            <PayLoad1/>
+            <h1 className="fs-1 fw-bold">Payloads</h1>
           </div>
         </div>
         <div className="row my-5">
           <div className="col-md-8 mx-auto ">
-            <PayLoad2/>
+            <PayLoad1 />
+          </div>
+        </div>
+        <div className="row my-5">
+          <div className="col-md-8 mx-auto ">
+            <PayLoad2 />
           </div>
         </div>
       </div>
-      <Capture/>
-      <ThreeSixty/>
+      <Capture />
+      <ThreeSixty />
+      {/* <Usecase/> */}
+      <ControlStation />
+      <DroneFeature1
+        url="https://ideaforgetech.com/uploads/Video/RightScreen-Take-offAreaCheck-SWITCH-com.mp4"
+        heading="Take-off Area Check feature"
+        desc="BlueFire Touch helps calculate actual operation area,
+      considering terrain at the take-off location."
+      />
+      <Dronefeature2
+        url="https://ideaforgetech.com/uploads/Video/LeftScreen-MapIntegration-SWITCH-com.mp4"
+        heading="Custom Maps Integration"
+        desc="Integrate custom maps to plan specific missions. BlueFire Touch
+      supports a wide range of formats to help the operations."
+      />
+      <DroneFeature1
+        url="https://ideaforgetech.com/uploads/Video/RightScreen-MissionReplay-SWITCH-com.mp4"
+        heading="Mission Replay Feature"
+        desc="Historical flight path and map view, combined with video output from the drone."
+      />
+      <Dronefeature2
+        url="https://ideaforgetech.com/uploads/Video/LeftScreen-Annotation-SWITCH-com.mp4"
+        heading="Real-time annotation"
+        desc="Mark points of interest and share coordinates."
+      />
+      <Brochure
+        url="https://ideaforgetech.com/uploads/Image/SwitchA4.png"
+        desc="Conduct your surveillance operations with SWITCH UAV."
+      />
+      <Footer/>
+
     </>
   );
 }

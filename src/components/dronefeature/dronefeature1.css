@@ -1,0 +1,11 @@
+.dronefeature1video video{
+    height: 100%;
+    width: 100%;
+}
+.dronefeaturebox1{
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    height: 54vh;
+    flex-direction: column;
+}
