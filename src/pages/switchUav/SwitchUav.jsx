@@ -22,8 +22,12 @@ export function SwitchUav() {
     <>
       <NavbarT />
       <DroneVideo url="https://ideaforgetech.com/uploads/Video/Tempcover-SWITCHUAV.mp4" />
-      <DroneInfo />
-      <Overview url="https://ideaforgetech.com/uploads/Video/Temp-Switch.mp4" />
+      <DroneInfo range="15 Kms" time="120 mins" zoom="25x"/>
+      <Overview url="https://ideaforgetech.com/uploads/Video/Temp-Switch.mp4" desc=" SWITCH UAV is a fixed wing and VTOL hybrid UAV. SWITCH UAV features
+            advanced flight time, higher safety and simple operation with
+            additional fail-safe redundancies. It is used for long range, high
+            endurance, high altitude last mile surveillance and security
+            operations." />
       <Features />
       <div className="container testing py-5">
         <div className="row">
@@ -74,16 +78,16 @@ export function SwitchUav() {
         </div>
         <div className="row my-5">
           <div className="col-md-8 mx-auto ">
-            <PayLoad1 />
+            <PayLoad1 h1="25x HD" h2="1000 m" url="https://ideaforgetech.com/uploads/Video/Switch_4sec%20(2).mp4"/>
           </div>
         </div>
         <div className="row my-5">
           <div className="col-md-8 mx-auto ">
-            <PayLoad2 />
+            <PayLoad2 h1="640x480" h2="500 m" p1="Thermal Camera with 4X Digital Zoom" p2="Target Detection Range" url="https://ideaforgetech.com/uploads/Image/Switch%20Thermal.14.png"/>
           </div>
         </div>
       </div>
-      <Capture />
+      <Capture name="SWITCH" url="https://ideaforgetech.com/uploads/Video/Costal%20area%20Serveillance%20s.mp4"/>
       <ThreeSixty />
       {/* <Usecase/> */}
       <ControlStation />

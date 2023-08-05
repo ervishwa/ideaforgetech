@@ -1,21 +1,22 @@
 import "./payLoad2.css";
-export function PayLoad2() {
+export function PayLoad2(props) {
+  const{h1,h2,p1,p2,url} = props;
   return (
     <div className="row playload2">
         <div className="col-md-4  col-sm-6 col-12 payloadflex">
         <div className="payload1box">
         <div className="row ">
           <div className="col-md-12">
-            <p className=" payload1heading">25x HD</p>
-            <p className="fs-5">Optical Zoom</p>
+            <p className=" payload1heading">{h1}</p>
+            <p className="fs-5">{p1}</p>
           </div>
         </div>
         </div>
         <div className="payload1box">
         <div className="row">
           <div className="col-md-12">
-            <p className="payload1heading">1000 m</p>
-            <p className="fs-5">Target Detection Range</p>
+            <p className="payload1heading">{h2}</p>
+            <p className="fs-5">{p2}</p>
           </div>
         </div>
         </div>
@@ -23,7 +24,7 @@ export function PayLoad2() {
       </div>
       <div className="col-md-8 col-sm-6 col-12">
         <div>
-            <img src="https://ideaforgetech.com/uploads/Image/Switch%20Thermal.14.png" alt="" />
+            <img src={url} alt="" />
         </div>
       </div>
     </div>

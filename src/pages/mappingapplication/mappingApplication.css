@@ -1,0 +1,18 @@
+.mapping{
+    background-image: url("https://ideaforgetech.com/_nuxt/img/bg9.c6f35cf.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 70vh;
+    width: 100vw;
+    margin-top: 60px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+/* .mappingbox1{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+     justify-content: center;
+} */

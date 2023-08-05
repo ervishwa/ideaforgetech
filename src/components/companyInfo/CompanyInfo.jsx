@@ -1,4 +1,4 @@
-
+import { Link } from "react-router-dom"
 export function CompanyInfo() {
   return (
     <section className="companyInfo my-5">
@@ -14,7 +14,12 @@ export function CompanyInfo() {
             players in the UAV industry.</p>
         </div>
         <div className="col-md-4 text-center" data-aos="fade-up" data-aos-once="false" data-aos-duration="1000">
-          <button type="button" className="btn rounded-pill">Know More</button>
+          <button type="button" className="btn rounded-pill"><Link
+              to="/about"
+              style={{ textDecoration: "none", color: "black" }}
+            >
+              Know More
+            </Link></button>
         </div>
       </div>
     </div>

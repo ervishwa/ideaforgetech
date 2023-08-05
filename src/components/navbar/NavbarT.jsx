@@ -21,7 +21,7 @@ export function NavbarT() {
           style={{ maxHeight: '100px' }}
           navbarScroll
         >
-          <Nav.Link href="#action1" className='color_black'>Home</Nav.Link>
+          <Nav.Link href="/" className='color_black'>Home</Nav.Link>
           <Nav.Link  className='color_black'><Link to="/about" style={{textDecoration:"none" ,color:"black"}}>About</Link></Nav.Link>
           <NavDropdown title="Our Products" id="navbarScrollingDropdown">
             <NavDropdown.Item href="#action3">Our Products</NavDropdown.Item>
